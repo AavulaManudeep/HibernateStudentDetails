@@ -27,7 +27,7 @@ public class HibernateUtil {
 	            settings.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
 	            settings.put("hibernate.connection.url", "jdbc:mysql://localhost:3306/testdb");
 	            settings.put("hibernate.connection.username", "manu");
-	            settings.put("hibernate.connection.password", "nikonD3200");
+	            settings.put("hibernate.connection.password", "password");
 	            settings.put("hibernate.show_sql", "true");
 	            settings.put("hibernate.hbm2ddl.auto", "create-drop");
 
